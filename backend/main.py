@@ -51,6 +51,10 @@ def fetch_usd_index():
     except Exception as e:
         return None, str(e)
 
+@app.get("/")
+def root():
+    return {"message": "Hello"}
+
 @app.get("/token-trade-signals")
 def token_trade_signals(token_id: str = Query("solana"), days: int = Query(30)):
     try:
