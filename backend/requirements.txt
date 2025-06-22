@@ -6,3 +6,4 @@ textblob
 cohere
 pandas
 numpy
+solana
