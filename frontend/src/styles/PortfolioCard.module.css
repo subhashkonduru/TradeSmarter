@@ -1,0 +1,18 @@
+.portfolioBox {
+  margin-top: 1.5rem;
+  border-top: 1px solid #30363d;
+  padding-top: 1.5rem;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.error {
+  margin-top: 1rem;
+  color: #f85149;
+  text-align: center;
+}

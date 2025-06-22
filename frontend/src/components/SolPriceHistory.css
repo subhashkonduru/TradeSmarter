@@ -1,0 +1,67 @@
+/* src/components/SolPriceHistory.css */
+
+.history-container {
+  background-color: #0d1117;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  color: #f0f6fc;
+}
+
+.history-card {
+  background-color: #161b22;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  max-width: 850px;
+  width: 100%;
+}
+
+.history-heading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.dropdown-wrapper {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dropdown-wrapper select {
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  background-color: #21262d;
+  color: #c9d1d9;
+  border: 1px solid #30363d;
+}
+
+.history-error {
+  color: #f85149;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history-table th,
+.history-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #30363d;
+  text-align: left;
+}
+
+.history-table th {
+  background-color: #21262d;
+  color: #58a6ff;
+}
+
+.history-table tr:hover {
+  background-color: #1c2128;
+}
